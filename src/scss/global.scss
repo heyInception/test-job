@@ -324,7 +324,7 @@
             position: absolute;
             content: "*";
             top: 50%;
-            left: -2px;
+            left: -5px;
             transform: translateY(-50%);
             color: var(--color-green);
             font-size: 0.875rem;
@@ -404,6 +404,11 @@
             position: relative;
             margin-top: 0;
             margin-left: auto;
+        }
+        &__req {
+            &::after {
+                left: -15px;
+            }
         }
     }
 }
