@@ -400,7 +400,10 @@
             }
         }
         &__btn {
-            right: 10px;
+            right: 0;
+            position: relative;
+            margin-top: 0;
+            margin-left: auto;
         }
     }
 }
