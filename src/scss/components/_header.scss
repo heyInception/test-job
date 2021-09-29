@@ -1,1 +1,41 @@
-//
+.header {
+    background-image: url(../../img/Header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1366px;
+    margin: auto;
+    box-shadow: 0 0 41px 20px rgba(0, 0, 0, 0.23);
+    &__row {
+        margin-top: 131px;
+        padding-top: 94px;
+        padding-bottom: 88px;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+        background-color: rgba(0, 0, 0, 0.72);
+        width: max-content;
+        padding: 14px 15px;
+    }
+
+    &__subtitle {
+        margin-bottom: 42px;
+        background-color: rgba(0, 0, 0, 0.72);
+        color: #fff;
+        width: max-content;
+        padding: 10px 12px;
+    }
+
+    &__button {
+        button {
+            height: 28px;
+            background-color: #0174bb;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1;
+            padding: 0 15px;
+        }
+    }
+}

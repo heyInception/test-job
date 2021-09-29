@@ -1,1 +1,15 @@
 @import "./vendor/normalize";
+h1 {
+    font-size: 3.25rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+  }
+  
+  input::placeholder {
+    color: rgb(59, 59, 59);
+  }
+  .form-control::-webkit-input-placeholder {
+    color: rgb(59, 59, 59);
+  }
+  
